@@ -1,1 +1,66 @@
 @import '~bootstrap/scss/bootstrap';
+
+.wrapper {
+   background: linear-gradient(to right, #e67e22, #e74c3c);
+  height: 100vh;
+  width: 100%;
+}
+
+.form-container {
+  height: 90vh;
+  background: #2B3746;
+  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+  width: 80%;
+  margin: 0 auto;
+}
+
+.background-image {
+  width: 50%;
+  height: 90vh;
+  background: url("public/background-weather.jpg") center center no-repeat;
+  display: flex;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+.content {
+  font-style: italic;
+  justify-content: center;
+  color: #fff;
+  font-weight: 250;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px #f16051;
+  width: 30%;
+  padding-bottom: 4px;
+  color: #fff !important;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+button {
+  border: 0;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #f16051;
+  color: #fff;
+  font-weight: 100;
+}
+
+ul {
+  text-decoration: none;
+}
