@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Weather Finder</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Do not add `link` tags-->
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+      <!-- Do not add `script` tags-->
+      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+      <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
+    </head>
+    <body>
+        <!-- Background div for entire site -->
+      <div class="wrapper">
+
+        <!--Right -Container for form inputs-->
+      <div class="form-container">
+
+        <!-- Left- Div for background image & title/p -->
+        <div class="background-image">
+
+          <!--Div for title and paragraph -->
+          <div class="content">
+
+            <h1>Weather Finder</h1>
+              <p>Find out the temperature, weather conditions and more...</p>
+          </div>
+
+        </div>
+
+      <div class="form">
+        <form>
+          <input type="text" placeholder="State">
+          <input type="text" placeholder="Country">
+          <button>Get Weather</button>
+        </form>
+      </div>
+
+      <!-- Temporary sample data-->
+        <div class="data">
+
+        <ul>
+          <li>
+            <p class="data-type">Location:</p> <p class="data-result">Manchester, GB</p>
+          </li>
+
+          <li>
+            <p class="data-type">Temperature:</p> <p class="data-result">0.27</p>
+          </li>
+
+          <li>
+            <p class="data-type">Humidity:</p> <p class="data-result">93%</p>
+          </li>
+
+          <li>
+            <p class="data-type">Conditions:</p> <p class="data-result">mist</p>
+          </li>
+        </ul>
+
+        </div>
+      </div>
+
+      </div>
+    </body>
+</html>
